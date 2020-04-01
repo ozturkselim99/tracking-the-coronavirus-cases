@@ -1,0 +1,78 @@
+﻿* {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #fff;
+    line-height: 1.6;
+}
+body {
+    background-image: url('../images/corona.png');
+}
+div.card-body 
+{
+    font-size: 40px;
+}
+input[type=text] 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box
+}
+input[type=text]:hover 
+{
+        box-shadow: 1px 1px #808080, 2px 2px #808080, 3px 3px #808080;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+tr td:nth-child(5) 
+{
+    background: red;
+}
+tr td:nth-child(3) 
+{
+    background: #ffbb3d;
+}
+tr td:nth-child(6) 
+{
+    background: #4BB543;
+}
+i 
+{
+    margin-left: 7.5px;
+}
+
+@media (min-width:576px) and (max-width:746px) 
+{
+
+    div.card-header 
+    {
+        font-size: 13.6px;
+    }
+
+    #mytable 
+    {
+        font-size: 14.4px;
+    }
+
+    div.card-body 
+    {
+        font-size: 26px;
+    }
+
+    #header 
+    {
+        font-size: 26px;
+    }
+}
+
+@media (max-width:576px) 
+{
+    #mytable 
+    {
+        font-size: 11.5px;
+    }
+
+    #header 
+    {
+        font-size: 26px;
+    }
+}
